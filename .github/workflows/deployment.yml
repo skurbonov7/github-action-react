@@ -11,7 +11,7 @@ jobs:
       - name: Test application
         run: npm run test
       - name: Lint application
-        run: npm run lint  
+        run: npm run lint
       - name: Build application
         run: npm run build
       - name: Deploy
