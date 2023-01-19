@@ -3,7 +3,6 @@ on: workflow_dispatch
 jobs:
   print:
     runs-on: windows-latest
-    staps:
+    steps:
       - name: Print context 
         run: echo "${{ github }}"
-        
